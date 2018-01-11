@@ -9,7 +9,7 @@ public class CouldNotReadCoreException extends Exception {
     /**
      * Constructs
      */
-    public CouldNotReadCoreException(Throwable e) {
+    public CouldNotReadCoreException(Throwable e) { // NOPMD by admin on 18. 1. 11 ?? 4:59
         super(e);
     }
 }
